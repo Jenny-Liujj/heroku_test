@@ -12,13 +12,10 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'config'
-group :development, :test do
-  gem 'byebug', platform: :mri
-end
+gem 'listen'
 
 group :development do
   gem 'web-console'
-  gem 'listen'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
