@@ -14,6 +14,12 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'config'
 gem 'listen'
+gem 'thin'
+#form表单提交
+gem 'simple_form'
+#上传文件
+gem 'carrierwave'
+
 
 group :development, :test do
   gem 'byebug', platform: :mri
